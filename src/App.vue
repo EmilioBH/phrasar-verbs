@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import CardComponent from './components/CardComponent.vue'
 
 const phrasalVerbs= [
   {
@@ -12,9 +13,8 @@ const phrasalVerbs= [
 <template>
   <h1>Phrasal Verbs</h1>
   <!-- Componente Card -->
-  <div class="card">
-    
-  </div>
+  <card-component />
+  
 </template>
 
 <style scoped>
